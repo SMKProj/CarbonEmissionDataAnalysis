@@ -37,17 +37,17 @@ Predicting Emission: Below are the figure that plots actual test values for resp
 
 ![LinearRegressionDataModeling](https://user-images.githubusercontent.com/85155952/212299445-0b37473b-6178-43c4-89d1-64eee86ec283.png)
 
-MSE:  106.78343778516974
+MSE:  106.78343778516974, 
 R squared score: 0.97
 
 ![DecisionTreesDataModeling](https://user-images.githubusercontent.com/85155952/212300082-58dae5e6-0588-470a-8276-40ae4373f7df.png)
 
-MSE:  144.42957746478874
+MSE:  144.42957746478874, 
 R squared score: 0.96
 
 ![SVMDataModeling](https://user-images.githubusercontent.com/85155952/212300023-1177f860-ff0f-43cc-917c-b5aaa6409b81.png)
 
-RMSE:  163.90140845070422
+RMSE:  163.90140845070422, 
 R squared score: 0.95
 
 Conclusion: The main purpose of this study is to investigate how the machine learning can be utilized to lessen the adverse effects of greenhouse gases emission caused by transportation sector. The developed model’s performance for predicting carbon dioxide emission ratings confirms machine learning utility which is very advantageous for limiting the worsening climatic conditions.
