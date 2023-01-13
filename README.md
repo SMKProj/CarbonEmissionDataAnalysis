@@ -19,13 +19,14 @@ Machine Learning Models: The proposed study comes under supervised machine learn
 
 Data Sampling and Descriptive Statistics: In given dataset we have five categorical variables namely Make, Model, Vehicle Class, Transmission and Fuel while rest of the variables are numeric. For analysis we are going to drop Year variable from the given dataset which only holds single value i.e., 2022.
 For convenience purpose, the column names of given dataset are renamed to Make, Model, Vehicle, Engine, Cylinders, Transmission, Fuel, FC_City, FC_Hwy, FC_Comb_L, FC_COMB_Mpg, Emission, CO2 and Smog. Figure below shows the first five records of given dataset.
+
 ![image](https://user-images.githubusercontent.com/85155952/212294997-8fc9c3d8-94cf-4623-979a-a4db90ede606.png)
 
 The descriptive information of the given dataset is given in Table below. The correlation between variables is shown as a heat map is a figure below.
 
 ![image](https://user-images.githubusercontent.com/85155952/212295377-099b2344-431d-4f7a-9a45-18d2a4fa93e5.png)
 
-![image](https://user-images.githubusercontent.com/85155952/212295424-ec801823-5530-4728-b281-671105538ead.png)
+![image](https://user-images.githubusercontent.com/85155952/212301928-5b48423d-a61a-403b-ae6c-28ff0076f0ae.png)
 
 Data Preperation: For the analysis, rightnow only numerical values are considered whcih showed positive and negative correlation with the response variable i.e. emission. This step involves creation of training and test data using Python sklearn. For the purpose 70% data is used for training and 30% is set for testing purpose.
 
@@ -35,18 +36,21 @@ Data Representation: Below figure plots original data without any preprocessing 
 Predicting Emission: Below are the figure that plots actual test values for response variable (emission) and predicted values using linear regression, decision trees and support vector classifer
 
 ![LinearRegressionDataModeling](https://user-images.githubusercontent.com/85155952/212299445-0b37473b-6178-43c4-89d1-64eee86ec283.png)
+
 MSE:  106.78343778516974
 R squared score: 0.97
 
 ![DecisionTreesDataModeling](https://user-images.githubusercontent.com/85155952/212300082-58dae5e6-0588-470a-8276-40ae4373f7df.png)
+
 MSE:  144.42957746478874
 R squared score: 0.96
 
 ![SVMDataModeling](https://user-images.githubusercontent.com/85155952/212300023-1177f860-ff0f-43cc-917c-b5aaa6409b81.png)
+
 RMSE:  163.90140845070422
 R squared score: 0.95
 
-The main purpose of this study is to investigate how the machine learning can be utilized to lessen the adverse effects of greenhouse gases emission caused by transportation sector. The developed model’s performance for predicting carbon dioxide emission ratings confirms machine learning utility which is very advantageous for limiting the worsening climatic conditions.
+Conclusion: The main purpose of this study is to investigate how the machine learning can be utilized to lessen the adverse effects of greenhouse gases emission caused by transportation sector. The developed model’s performance for predicting carbon dioxide emission ratings confirms machine learning utility which is very advantageous for limiting the worsening climatic conditions.
 
 
 
